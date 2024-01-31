@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c57541ece9.js" crossorigin="anonymous"></script>
+    <title>Password Strength Checker</title>
+</head>
+<body>
+    <div class="password-checker">
+        <h1>Password Strength Checker</h1>
+        <input type="password" id="password" placeholder="Enter your password">
+        <button id="check-strength">Check Strength</button>
+        <div id="conditions-output"></div>
+        <div id="strength-output"></div>
+
+        <div class="guidelines">
+
+            <h2>Password Conditions:</h2>
+                <ul id="password-conditions">
+                     <div id="length">
+                        <i class="fa-solid fa-check"></i>
+                        <span> At least 8 characters long.</span>
+                    </div>
+                     <div id="combination">
+                        <i class="fa-solid fa-check"></i>
+                        <span> A combination of uppercase letters, lowercase letters, numbers, and symbols.</span>
+                     </div>
+                </ul>
+
+            <h2>Password Guidelines:</h2>
+                <ul>    
+                    <li> Not a word that can be found in a dictionary or the name of a person, character, product, or organization.</li>
+                    <li> Significantly different from your previous passwords.</li>
+                </ul>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

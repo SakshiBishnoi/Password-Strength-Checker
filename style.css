@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f0fc;
+}
+h1{
+    color: #2c2c54;
+}
+
+.password-checker {
+    text-align: center;
+    background-color: #e0aaff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 80%;
+}
+
+#strength-output {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* .2.. */
+.guidelines {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #4a47a3;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #2c2c54;
+}
+
+#password-conditions {
+    .both-valid {
+        color: #4a47a3;
+    }
+}
+
+button {
+    background-color: #4a47a3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c2c54;
+}
